@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-white bg-black;
+
+    font-size: 14px;
+  }
+
+  html,
+  body,
+  #app {
+    height: 100%;
+  }
+}
